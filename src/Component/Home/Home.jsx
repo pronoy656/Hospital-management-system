@@ -1,4 +1,4 @@
-import React from "react";
+import PatientLogin from "../Authentication-Form/LoginForm/PatientLogin";
 
 const Home = () => {
   return (
@@ -12,6 +12,9 @@ const Home = () => {
       <button className="btn btn-success">Success</button>
       <button className="btn btn-warning">Warning</button>
       <button className="btn btn-error">Error</button>
+      <div className="mt-10">
+        <PatientLogin></PatientLogin>
+      </div>
     </div>
   );
 };
