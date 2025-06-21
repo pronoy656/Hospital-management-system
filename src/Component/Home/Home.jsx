@@ -1,4 +1,5 @@
 import PatientLogin from "../Authentication-Form/LoginForm/PatientLogin";
+import RegisterForm from "../Authentication-Form/RegisterForm/RegisterForm";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <button className="btn btn-error">Error</button>
       <div className="mt-10">
         <PatientLogin></PatientLogin>
+        <RegisterForm></RegisterForm>
       </div>
     </div>
   );
